@@ -1,0 +1,41 @@
+/* RepositoryList.css */
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .search-input {
+    padding: 0.5rem;
+    border: 1px solid #ffffff; /* White outline for the search box */
+    border-radius: 4px;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .search-button {
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .repo-list {
+    list-style-type: none;
+  }
+  
+  .repo-item {
+    margin-bottom: 1rem;
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+    }
+  }
